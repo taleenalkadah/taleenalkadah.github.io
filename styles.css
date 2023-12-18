@@ -1,0 +1,178 @@
+body{
+    background: #C7E3EE;
+    background-image: url(background2.jpg) ;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: Verdana;
+  }
+  
+  .header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+  
+  }
+
+  .wrapper{
+    margin: 150px auto;
+    width: 70%;
+    margin-left: 260px;
+    
+  }
+  
+  header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  header ul li{
+    list-style:none;
+    margin-left: 10px;
+  }
+  
+  .taleen{
+    font-size: 32px;
+    color: rgb(70, 70, 103);
+    text-decoration: none;
+    font-weight: 700;
+  }
+  
+  .navbar a{
+    position: relative;
+    font-size: 18px;
+    color:  rgb(70, 70, 103);
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 40px;
+  }
+  
+  .navbar a::before{
+    content: '';
+    position: absolute;
+    top: 105%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: rgb(70, 70, 103);
+    transition: .3s;
+  }
+  .navbar a:hover:before{
+    width: 100%;
+  }
+
+  .img-pc{
+    max-width: 320px;
+    float: left;
+    margin-right: 15px;
+    margin-bottom: none;
+  }
+  .text-box{
+    color: rgb(30, 30, 62);
+    margin-bottom: none;
+  }
+  
+  h1{
+    position: relative;
+    align-items: center;
+    font-size: 42px;
+    color: rgb(30, 30, 62);
+    padding-bottom: 15px;
+  }
+  .text-box p{
+    font-size: 16px;
+    margin-right: 60px;
+    margin-bottom: none;
+  }
+  .wrapper h3{
+    position: relative;
+    top: 100px;
+    font-size: 18px;
+    color:  rgb(30, 30, 62);
+    font-weight: 500;
+    margin: 16px ;
+    width: 100%;
+    margin-left: 1px;
+
+  }
+  h4{
+    position: relative;
+    top: 180px;
+    font-size: 18px;
+    color:  rgb(30, 30, 62);
+    font-weight: 500;
+    width: 60%;
+  }
+
+  .linkedin{
+    position: absolute;
+    font-size: 32px;
+    background-color: rgb(9, 34, 75);
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: 700;
+    margin-top: 3px;
+    top:400px;
+    left:40px;
+    border:none;
+    height: 37px;
+    width: 37px;
+    border-radius: 2px;
+    cursor: pointer;
+    text-align: center;
+
+
+  }
+  .linkedin:hover{
+    opacity: 0.8;
+  }
+
+  .resume{
+    position: absolute;
+    font-size: 26px;
+    background-color: rgb(126, 80, 163);
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: 700;
+    top:470px;
+    left:40px;
+    border:none;
+    height: 37px;
+    width: 120px;
+    border-radius: 2px;
+    cursor: pointer;
+    text-align: center;
+
+
+  }
+
+  .resume:hover{
+    opacity: 0.8;
+  }
+
+  .email{
+    position: bottom;
+    left: 40%;
+    
+  }
+
+
+  
+  

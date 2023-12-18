@@ -1,0 +1,113 @@
+body{
+  background: #8acad8;
+  background-image: url(IMG_20180810_183033_OriginalTAL1RS.jpg) ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  
+
+}
+h2{
+  text-align: center;
+  font-size: 100px;
+  color: #595970;
+  font-family: Verdana;
+  font-weight: 900;
+  transition: 3s;
+  text-transform: uppercase;
+  margin-top: 5%;
+  -webkit-text-stroke: 0.5px #616b9b;
+  padding-top: 10%;
+}
+h2:hover{
+  cursor: pointer;
+  text-shadow: -1px -1px 1px #616b9b, 
+                0px 1px 0 #a9a9b6,
+                0px 2px 0 #616b9b,
+                0px 3px 0 #a9a9b6,
+                0px 4px 0 #616b9b,
+                0px 5px 0 #a9a9b6,
+                0px 6px 0 #616b9b,
+                0px 7px 0 #a9a9b6,
+                0px 8px 0 #616b9b,
+                0px 9px 0 #a9a9b6,
+                0px 10px 0 #616b9b,
+                0px 11px 0 #a9a9b6,
+                0px 12px 0 #616b9b,
+                0px 13px 0 #a9a9b6,
+                0px 14px 0 #616b9b,
+                0px 15px 0 #a9a9b6,
+                0px 8px 0 #616b9b,
+                10px 25px 35px #a9a9b6;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+  font-family: Verdana;
+}
+
+h3{
+  position: absolute;
+  font-size: 18px;
+  color:  rgb(89, 89, 122);
+  font-weight: 500;
+  text-decoration: none;
+  padding: .7em 15%;
+
+}
+.header{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 100px;
+  background: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+
+}
+
+header ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header ul li{
+  list-style:none;
+  margin-left: 10px;
+}
+
+.taleen{
+  font-size: 32px;
+  color: rgb(89, 89, 122);
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.navbar a{
+  position: relative;
+  font-size: 18px;
+  color:  rgb(89, 89, 122);
+  font-weight: 500;
+  text-decoration: none;
+  margin-left: 40px;
+}
+
+.navbar a::before{
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: rgb(89, 89, 122);
+  transition: .3s;
+}
+.navbar a:hover:before{
+  width: 100%;
+}
+
